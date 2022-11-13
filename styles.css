@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-ul {
+.top-links {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -58,8 +58,11 @@ a {
 .sign-up {
     background-color: #3882f6;
     color: #f9faf8;
-    border-color: #3882f6;
-    border-radius: 3px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 24px;
+    padding-right: 24px;
+
 }
 
 .title {
@@ -92,5 +95,50 @@ a {
     height: 200px;
     justify-content: center;
     align-items: center;
-    flex-basis: 40%
+    flex-basis: 40%;
+    padding: 8px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-header-section {
+    display: flex;
+    padding: 24px 0px ;
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937
+
+}
+
+.box-section {
+    display: flex;
+    gap: 36px;
+    padding-left: 36px;
+    padding-right: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 150px;
+    border: 2px #3882f6 solid;
+    border-radius: 6px;
+}
+
+.info {
+    width: 150px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
 }
