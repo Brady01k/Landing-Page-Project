@@ -168,4 +168,42 @@ a {
     width: 25%;
 }
 
+.action-section {
+    display: flex;
+    padding: 36px;
+}
 
+.action-container {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 54px;
+    border-radius: 6px;
+    gap: 12px;
+}
+
+.text-side {
+    flex-basis: 60%;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.action-subtext {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.button-side {
+    flex-basis: 20%;
+}
+
+.action-container .sign-up {
+    border: 2px #f9faf8 solid;
+    
+}
